@@ -1,0 +1,14 @@
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+                # если не хочется что бы настрйоки применялись для определенных файлов,
+                # то просто пишется расширение файлов,для которых нужно сделать исключение.
+[*.js]
+insert_final_newline = false
+indent_style = space
+indent_size = 2
+

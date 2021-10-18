@@ -10,19 +10,19 @@ const leftBorderWidth = 1;
 
 number = 10;
 console.log(number);
-
 const obj = {
-    a: 50
+  a: 50
 };
 
 
 obj.a = 10;
 
-// console.log(obj);  Устаревший формат задания переменных 
+console.log(obj);
+//   Устаревший формат задания переменных
 // var name = 'Name';   который не желательно использовать.
 
 {
-    let result = 50;
+  let result = 50;
 }
 
 console.log(result);
